@@ -1,0 +1,55 @@
+.location {
+    align-self: center;
+    width: 200px;
+    height: 200px;
+    border: 5px solid transparent;
+    border-radius: 10px;
+    display: inline-block;
+    transition: all 0.3s;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.contactLocation{
+    align-self: center;
+
+
+}
+.location:hover {
+    border-color: transparent;
+}
+
+#location-container {
+    display: flex;
+}
+
+#loc1,
+#loc2,
+#loc3 {
+    border-radius: 10px;
+    text-align: center;
+}
+
+#loc3 {
+
+}
+
+#loc1:hover,
+#loc2:hover,
+#loc3:hover {
+    background-color: rgba(255, 135, 49, 0.5);
+    border-color: rgba(255, 135, 49, 0.5);
+    color: #ff8731;
+}
+
+#loc2:hover {
+    background-color: rgba(81, 35, 20, 0.5);
+    border-color: rgba(81, 35, 20, 0.5);
+    color: #512314;
+}
+
+#loc3:hover {
+    background-color: rgba(215, 35, 0, 0.5);
+    border-color: rgba(215, 35, 0, 0.5);
+    color: #d72300;
+}

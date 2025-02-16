@@ -1,0 +1,66 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.about-item img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-item {
+    text-align: center;
+    margin: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.about-item img {
+    transition: transform 0.5s ease-in-out;
+    margin: 15px;
+}
+
+.about-item:hover img {
+    transform: scale(1.05);
+}
+
+.doner-logo,
+.workplace-image,
+.burger-image {
+    max-width: 100%;
+    height: 100px;
+    backface-visibility: hidden;
+}
+
+.map-contact-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px; /* Adjust as needed */
+}
+
+.contact-container {
+    width: 50px;
+    box-sizing: border-box;
+}
+
